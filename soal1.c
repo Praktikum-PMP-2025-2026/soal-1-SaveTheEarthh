@@ -13,9 +13,8 @@ int main(void){
     int N; // deklarasi variabel N
 
     scanf("%d", &N); // menerima input
-    printf("\n");
 
-    for (int i = 1; i <= N; i++) // output terminal berdasarkan iterasi i
+    for (int i = 0; i < N; i++) // output terminal berdasarkan iterasi i
     {   
         // penjabaran kondisi if-else sesuai dengan soal
         if(i%2==0 && i%3 ==0 ){

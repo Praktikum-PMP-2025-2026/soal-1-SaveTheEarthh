@@ -14,7 +14,7 @@ int main(void){
 
     scanf("%d", &N); // menerima input
 
-    for (int i = 0; i < N; i++) // output terminal berdasarkan iterasi i
+    for (int i = 1; i <= N; i++) // output terminal berdasarkan iterasi i
     {   
         // penjabaran kondisi if-else sesuai dengan soal
         if(i%2==0 && i%3 ==0 ){
@@ -26,7 +26,7 @@ int main(void){
         else if (i%2 ==0){
             printf("KUNING");
         }
-        else if (i>= 10 && i % 2 ==0){
+        else if ((i/10) > 0 && i % 2 ==0){
             printf("HIJAU");
         }
         else{
